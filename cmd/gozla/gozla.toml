@@ -1,0 +1,8 @@
+[build]
+output = "Hello"
+os = ["mac", "windows", "linux"]
+arch = ["386", "amd64"]
+archive = ["zip", "tar.gz"]
+
+[release]
+badges = ['travis', 'godoc', 'goreport']
